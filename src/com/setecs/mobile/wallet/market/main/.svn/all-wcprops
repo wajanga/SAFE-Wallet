@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/main
+END
+MarketConstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/seclab/android/!svn/ver/527/trunk/Wallet/src/com/setecs/mobile/wallet/market/main/MarketConstant.java
+END
+HomeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/main/HomeActivity.java
+END
+MyPreferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/main/MyPreferences.java
+END
+BaseClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/seclab/android/!svn/ver/32/trunk/Wallet/src/com/setecs/mobile/wallet/market/main/BaseClass.java
+END
+C2DMReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/main/C2DMReceiver.java
+END
+SavedVoucher.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/seclab/android/!svn/ver/519/trunk/Wallet/src/com/setecs/mobile/wallet/market/main/SavedVoucher.java
+END
+SettingsHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/seclab/android/!svn/ver/32/trunk/Wallet/src/com/setecs/mobile/wallet/market/main/SettingsHandler.java
+END
+WalletConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/seclab/android/!svn/ver/59/trunk/Wallet/src/com/setecs/mobile/wallet/market/main/WalletConstants.java
+END
+MarketVoucher.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/main/MarketVoucher.java
+END
+ListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/main/ListAdapter.java
+END

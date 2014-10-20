@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+android:id="@+id/widget95"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+   android:background="@drawable/button_background"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_below="@+id/widget99" android:layout_above="@+id/widget929"
+
+>
+
+
+	<TextView  
+android:id="@+id/widget236"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="SAFE Wallet"
+android:textSize="24sp"
+android:textStyle="bold"
+android:textColor="#ff000066"
+android:shadowColor="#ff003333"  
+        android:shadowRadius="1.5"  
+        android:shadowDx="1"  
+        android:shadowDy="1"
+android:layout_alignParentTop="true"
+android:layout_alignParentLeft="true"
+   android:gravity="center"
+   android:background="@drawable/title"
+android:padding="10dip"
+
+>
+</TextView>
+
+<ScrollView
+android:id="@+id/ScrollView01"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_below="@+id/widget99" android:layout_above="@+id/widget929"
+
+>
+<LinearLayout
+android:id="@+id/widget95"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+   android:background="@drawable/button_background"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_below="@+id/widget99" android:layout_above="@+id/widget929"
+>
+<Button
+android:id="@+id/m_wallet"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="	m-Wallet"
+android:textSize="18sp"
+android:textStyle="bold"
+android:textColor="#ff3c0000"
+
+android:drawableLeft="@drawable/mwallet"
+   android:gravity="center|left"
+   android:background="@drawable/first_button_bg"
+android:paddingLeft="10dip"
+android:padding="10dip"
+
+>
+</Button>
+<Button
+android:id="@+id/m_market"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="	m-Shopping"
+android:textSize="18sp"
+android:textStyle="bold"
+android:drawableLeft="@drawable/mmarket"
+   android:gravity="center|left"
+   android:background="@drawable/button_background"
+android:paddingLeft="10dip"
+android:textColor="#ff3c0000"
+android:padding="10dip"
+
+>
+</Button>
+<Button
+android:id="@+id/m_club"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="	m-Club"
+android:textSize="18sp"
+android:textStyle="bold"
+android:drawableLeft="@drawable/mclub"
+   android:gravity="center|left"
+   android:background="@drawable/button_background"
+android:paddingLeft="10dip"
+android:textColor="#ff3c0000"
+android:padding="10dip"
+
+>
+</Button><Button
+android:id="@+id/m_health"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="	m-Health"
+android:textSize="18sp"
+android:textStyle="bold"
+android:drawableLeft="@drawable/mhealth"
+   android:gravity="center|left"
+   android:background="@drawable/button_background"
+android:paddingLeft="10dip"
+android:textColor="#ff3c0000"
+android:padding="10dip"
+
+>
+</Button>
+
+<Button
+android:id="@+id/m_security"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="	m-Settings"
+android:textSize="18sp"
+android:textStyle="bold"
+android:drawableLeft="@drawable/msettings"
+   android:gravity="center|left"
+   android:background="@drawable/last_button_bg"
+android:paddingLeft="10dip"
+android:textColor="#ff3c0000"
+android:padding="10dip"
+
+>
+</Button>
+
+</LinearLayout>
+</ScrollView>
+<LinearLayout
+android:id="@+id/widget929"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:background="#ff000000"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_alignParentBottom="true"
+>
+<TextView
+android:id="@+id/widget236"
+android:layout_width="fill_parent"
+android:layout_height="70px"
+android:text="EUR"
+android:layout_gravity="center_vertical|right"
+   android:gravity="center"
+   android:textSize="20sp"
+android:textStyle="bold"
+android:textColor="#ffffff00"
+
+   android:background="@drawable/footer"
+android:visibility="gone"
+
+   >
+</TextView>
+</LinearLayout>
+</LinearLayout>

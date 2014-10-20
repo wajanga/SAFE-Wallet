@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/advertisement
+END
+MarketAd.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/advertisement/MarketAd.java
+END
+AdAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/advertisement/AdAdapter.java
+END
+DownloadedAd.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/advertisement/DownloadedAd.java
+END
+AdRowAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/advertisement/AdRowAdapter.java
+END
+Ad.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/seclab/android/!svn/ver/526/trunk/Wallet/src/com/setecs/mobile/wallet/market/advertisement/Ad.java
+END
+AdActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/advertisement/AdActivity.java
+END
+AdParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/seclab/android/!svn/ver/526/trunk/Wallet/src/com/setecs/mobile/wallet/market/advertisement/AdParser.java
+END
+AdHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/advertisement/AdHome.java
+END
+MarketAdNew.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/advertisement/MarketAdNew.java
+END

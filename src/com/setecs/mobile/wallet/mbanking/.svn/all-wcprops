@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking
+END
+ListBankAccountsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/ListBankAccountsActivity.java
+END
+AccountStatusActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/AccountStatusActivity.java
+END
+RegisterBankAccountParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/seclab/android/!svn/ver/558/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/RegisterBankAccountParser.java
+END
+ListTransactionsIntermediate.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/ListTransactionsIntermediate.java
+END
+ListTransactionsRowAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/ListTransactionsRowAdapter.java
+END
+BankAccBalanceActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/BankAccBalanceActivity.java
+END
+TransferFundsParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/seclab/android/!svn/ver/551/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/TransferFundsParser.java
+END
+ListTransactionsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/ListTransactionsActivity.java
+END
+BankTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/seclab/android/!svn/ver/561/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/BankTransaction.java
+END
+BankAccountActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/BankAccountActivity.java
+END
+PayBillActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/PayBillActivity.java
+END
+AccountStatusParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/seclab/android/!svn/ver/560/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/AccountStatusParser.java
+END
+RegisterBankAccountActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/RegisterBankAccountActivity.java
+END
+BankAccRowAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/BankAccRowAdapter.java
+END
+MBanking.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/MBanking.java
+END
+BankAccBalanceParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/seclab/android/!svn/ver/552/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/BankAccBalanceParser.java
+END
+BankListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/BankListAdapter.java
+END
+RegisterCard.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/RegisterCard.java
+END
+TransferFundsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/TransferFundsActivity.java
+END
+ListTransactionsParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/seclab/android/!svn/ver/561/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/ListTransactionsParser.java
+END
+BankAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/seclab/android/!svn/ver/545/trunk/Wallet/src/com/setecs/mobile/wallet/mbanking/BankAccount.java
+END

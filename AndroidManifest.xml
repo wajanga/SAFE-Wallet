@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.setecs.mobile.walletDev"
+    android:versionCode="11"
+    android:versionName="1.0.9" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- FOR MARKET -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- Only this application can receive the messages and registration result -->
+    <permission
+        android:name="com.wallet.market.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.wallet.market.permission.C2D_MESSAGE" />
+    <!-- This app has permission to register and receive message -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <!-- FOR MARKET -->
+
+    <application
+        android:name="com.setecs.mobile.wallet.safe.wallet.MyApplication"
+        android:icon="@drawable/icon"
+        android:label="Wallet" >
+        <provider
+            android:name="com.setecs.mobile.wallet.market.provider.AdProvider"
+            android:authorities="com.setecs.mobile.wallet.AdProvider"
+            android:exported="false" />
+        <provider
+            android:name="com.setecs.mobile.wallet.market.provider.PromProvider"
+            android:authorities="com.setecs.mobile.wallet.PromProvider"
+            android:exported="false" />
+        <provider
+            android:name="com.setecs.mobile.wallet.market.provider.CouponProvider"
+            android:authorities="com.setecs.mobile.wallet.CouponProvider"
+            android:exported="false" />
+        <provider
+            android:name="com.setecs.mobile.wallet.market.provider.TicketProvider"
+            android:authorities="com.setecs.mobile.wallet.TicketProvider"
+            android:exported="false" />
+        <provider
+            android:name="com.setecs.mobile.wallet.market.provider.GiftcardProvider"
+            android:authorities="com.setecs.mobile.wallet.GiftcardProvider"
+            android:exported="false" />
+        <provider
+            android:name="com.setecs.mobile.wallet.market.provider.BankAccountProvider"
+            android:authorities="com.setecs.mobile.wallet.BankAccountProvider"
+            android:exported="false" />
+
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.wallet.Login"
+            android:finishOnTaskLaunch="true"
+            android:label="Wallet"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.wallet.IntroScreen"
+            android:finishOnTaskLaunch="true"
+            android:label="Wallet"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.wallet.IntroScreenLogin"
+            android:finishOnTaskLaunch="true"
+            android:label="Wallet"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.wallet.WalletMain"
+            android:finishOnTaskLaunch="true"
+            android:label="Wallet"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.accounts.SafeAccounts"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/safe_accounts"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.accounts.SAFEBalanceActivity"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/safe_accounts"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.accounts.ListSafeAccounts"
+            android:finishOnTaskLaunch="true"
+            android:label="List SAFE Accounts"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.accounts.CreateNewSafeAccounts"
+            android:finishOnTaskLaunch="true"
+            android:label="Create SAFE Account"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.accounts.SuspendAccounts"
+            android:finishOnTaskLaunch="true"
+            android:label="Suspend SAFE Account"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.accounts.ActivateAccount"
+            android:finishOnTaskLaunch="true"
+            android:label="Activate SAFE Account"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.accounts.TerminateAccount"
+            android:finishOnTaskLaunch="true"
+            android:label="Terminate SAFE Account"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.transactions.SafeTransactions"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/safe_transactions"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mbanking.MBanking"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/m_banking"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mbanking.RegisterCard"
+            android:finishOnTaskLaunch="true"
+            android:label="Register Card"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mbanking.RegisterBankAccountActivity"
+            android:finishOnTaskLaunch="true"
+            android:label="Register Bank Account"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mbanking.AccountStatusActivity"
+            android:finishOnTaskLaunch="true"
+            android:label="Bank Account Status"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mbanking.PayBillActivity"
+            android:finishOnTaskLaunch="true"
+            android:label="Pay Bill"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mbanking.TransferFundsActivity"
+            android:finishOnTaskLaunch="true"
+            android:label="Transfer Funds"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mbanking.ListBankAccountsActivity"
+            android:finishOnTaskLaunch="true"
+            android:label="List Bank Accounts"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mbanking.BankAccBalanceActivity"
+            android:finishOnTaskLaunch="true"
+            android:label="List Bank Accounts"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mbanking.ListTransactionsActivity"
+            android:finishOnTaskLaunch="true"
+            android:label="List Transactions"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mbanking.ListTransactionsIntermediate"
+            android:finishOnTaskLaunch="true"
+            android:label="List Transactions"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mbanking.BankAccountActivity"
+            android:finishOnTaskLaunch="true"
+            android:label="Bank Account"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mapplication.MApplication"
+            android:finishOnTaskLaunch="true"
+            android:label="m-Cards"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mapplication.RegisterCard"
+            android:finishOnTaskLaunch="true"
+            android:label="Register Card"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mapplication.ListCards"
+            android:finishOnTaskLaunch="true"
+            android:label="List Cards"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mapplication.Card"
+            android:finishOnTaskLaunch="true"
+            android:label="Card"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mapplication.ListTransactionsIntermediate"
+            android:finishOnTaskLaunch="true"
+            android:label="List Transactions"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.msettings.MSettings"
+            android:finishOnTaskLaunch="true"
+            android:label="m-Settings"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.msettings.SystemInfoActivity"
+            android:finishOnTaskLaunch="true"
+            android:label="m-Settings"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.msettings.WalletApplications"
+            android:finishOnTaskLaunch="true"
+            android:label="Wallet Applications"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.safe.apps.shared.RequestCertificate"
+            android:finishOnTaskLaunch="true"
+            android:label="Request Certificate"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.safe.apps.shared.ShowCountryCodesList"
+            android:finishOnTaskLaunch="true"
+            android:label="Country Codes"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.safe.apps.shared.ShowSafeSystemList"
+            android:finishOnTaskLaunch="true"
+            android:label="Safe Systems"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.transactions.DepositCash"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/deposit_cash"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.transactions.WithdrawCash"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/withdraw_cash"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.transactions.TransferMoney"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/transfer_money"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.transactions.TransferMoneyActivity"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/transfer_money"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.safe.apps.shared.AccountBalance"
+            android:finishOnTaskLaunch="true"
+            android:label="SAFE Account Balance"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.transactions.ListTransactions"
+            android:finishOnTaskLaunch="true"
+            android:label="List Transactions"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.msettings.SystemConfiguration"
+            android:finishOnTaskLaunch="true"
+            android:label="System Configuration"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.msettings.WalletConfiguration"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/wallet_conf"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.msettings.UserRegistration"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/user_registration"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.safe.apps.shared.ChangeApplicationPin"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/change_wallet_pin"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.safe.apps.shared.ChangeSafePin"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/change_SAFE_pin"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.paymobile.MPay"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/pay_mobile"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.paymobile.BTPayWallet"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/pay_mobile" />
+        <activity
+            android:name="com.setecs.mobile.wallet.paymobile.Pay"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/pay_mobile" />
+        <activity
+            android:name="com.setecs.mobile.wallet.paymobile.OTAPayWallet"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/pay_mobile"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.paymobile.OTCPayWallet"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/pay_mobile"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.paymobile.QRPayWallet"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/pay_mobile"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.paymobile.OTAPayWalletGiftcard"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/pay_mobile"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mwallet.MWallet"
+            android:finishOnTaskLaunch="true"
+            android:label="m-Wallet"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.wallet.MClub"
+            android:finishOnTaskLaunch="true"
+            android:label="m-Club"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.wallet.MHealth"
+            android:finishOnTaskLaunch="true"
+            android:label="m-Health"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mwallet.PayWallet"
+            android:finishOnTaskLaunch="true"
+            android:label="m-Pay"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mmoney.mMoney"
+            android:finishOnTaskLaunch="true"
+            android:label="m-Cash"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mmoney.LoadCash"
+            android:finishOnTaskLaunch="true"
+            android:label="Load Cash"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mmoney.UnloadCash"
+            android:finishOnTaskLaunch="true"
+            android:label="Unload Cash"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.mmoney.ViewStoredMoney"
+            android:finishOnTaskLaunch="true"
+            android:label="View Stored Cash"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.wallet.mMarket"
+            android:finishOnTaskLaunch="true"
+            android:label="m-Shopping"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.safe.apps.shared.SecuritySettings"
+            android:finishOnTaskLaunch="true"
+            android:label="Security Settings"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.safe.apps.shared.SecurityOptions"
+            android:finishOnTaskLaunch="true"
+            android:label="Security Options"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.safe.wallet.ReadconfigFile"
+            android:finishOnTaskLaunch="true"
+            android:label="m-Shopping"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.paymobile.DeviceListActivityOriginal"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.setecs.mobile.wallet.paymobile.DeviceListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/select_device"
+            android:theme="@android:style/Theme.Dialog" />
+
+        <!-- FOR MARKET -->
+        <!--
+             Only C2DM servers can send messages for the app. If permission is 
+			not set - any other app can generate it
+        -->
+        <receiver
+            android:name="com.google.android.c2dm.C2DMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+
+            <!-- Receive the actual message -->
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.setecs.mobile.wallet.market" />
+            </intent-filter>
+            <!-- Receive the registration id -->
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.setecs.mobile.wallet.market" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.setecs.mobile.wallet.market.main.C2DMReceiver" />
+
+        <activity
+            android:name="com.setecs.mobile.wallet.market.main.HomeActivity"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.advertisement.AdHome"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.advertisement.MarketAd"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.advertisement.MarketAdNew"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.advertisement.DownloadedAd"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.advertisement.AdActivity"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.bills.BillHome"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.bills.PaidBills"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.bills.UnPaidBills"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.bills.BillActivity"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.promotions.NearbyServiceList"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.main.MyPreferences"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched2" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.tickets.TicketsHome"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.tickets.MarketTickets"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.tickets.SavedTickets"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.tickets.TicketActivity"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.telecom.TelecomHome"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.telecom.TelecomList"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.main.ServiceDetail"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.promotions.Test"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.parking.ParkingHome"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.parking.SearchParking"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.parking.PayParking"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.parking.ExtendParking"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.parking.PayParkingTicket"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.parking.ParkingList"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.parking.ParkingTickets"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.parking.ParkingReceipt"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.telecom.TelecomReceiptList"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.telecom.TelecomReceipt"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.giftcards.GiftHome"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.giftcards.MarketGifts"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.giftcards.SavedGifts"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.giftcards.GiftcardActivity"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.promotions.Home"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.promotions.DownloadedProm"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.promotions.PromActivity"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.coupons.CouponsHome"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.coupons.MarketCoupons"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.coupons.SavedCoupons"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.market.coupons.CouponActivity"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity
+            android:name="com.setecs.mobile.wallet.paymobile.PayOptions"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IOSched" />
+        <activity android:name="com.setecs.mobile.wallet.paymobile.GiftcardPay" />
+
+        <uses-library android:name="com.google.android.maps" />
+        <!-- FOR MARKET -->
+    </application>
+
+</manifest>

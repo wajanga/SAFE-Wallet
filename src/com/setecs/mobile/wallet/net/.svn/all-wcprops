@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seclab/android/!svn/ver/610/trunk/Wallet/src/com/setecs/mobile/wallet/net
+END
+SocketAsyncTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/seclab/android/!svn/ver/610/trunk/Wallet/src/com/setecs/mobile/wallet/net/SocketAsyncTask.java
+END
+HttpAsyncTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seclab/android/!svn/ver/528/trunk/Wallet/src/com/setecs/mobile/wallet/net/HttpAsyncTask.java
+END
+SocketResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/seclab/android/!svn/ver/523/trunk/Wallet/src/com/setecs/mobile/wallet/net/SocketResponseHandler.java
+END
+SocketAsyncTask3.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/seclab/android/!svn/ver/610/trunk/Wallet/src/com/setecs/mobile/wallet/net/SocketAsyncTask3.java
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seclab/android/!svn/ver/612/trunk/Wallet/res/values
+END
+ids.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seclab/android/!svn/ver/32/trunk/Wallet/res/values/ids.xml
+END
+vpi__colors.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seclab/android/!svn/ver/89/trunk/Wallet/res/values/vpi__colors.xml
+END
+colors.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seclab/android/!svn/ver/528/trunk/Wallet/res/values/colors.xml
+END
+vpi__styles.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seclab/android/!svn/ver/89/trunk/Wallet/res/values/vpi__styles.xml
+END
+vpi__defaults.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seclab/android/!svn/ver/89/trunk/Wallet/res/values/vpi__defaults.xml
+END
+styles.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seclab/android/!svn/ver/32/trunk/Wallet/res/values/styles.xml
+END
+strings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seclab/android/!svn/ver/753/trunk/Wallet/res/values/strings.xml
+END
+dimens.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seclab/android/!svn/ver/555/trunk/Wallet/res/values/dimens.xml
+END
+custom_style.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seclab/android/!svn/ver/32/trunk/Wallet/res/values/custom_style.xml
+END
+vpi__attrs.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seclab/android/!svn/ver/89/trunk/Wallet/res/values/vpi__attrs.xml
+END

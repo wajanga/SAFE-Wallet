@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seclab/android/!svn/ver/32/trunk/Wallet/src/com/google/android/c2dm
+END
+C2DMessaging.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/seclab/android/!svn/ver/32/trunk/Wallet/src/com/google/android/c2dm/C2DMessaging.java
+END
+C2DMBaseReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seclab/android/!svn/ver/32/trunk/Wallet/src/com/google/android/c2dm/C2DMBaseReceiver.java
+END
+C2DMBroadcastReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/seclab/android/!svn/ver/32/trunk/Wallet/src/com/google/android/c2dm/C2DMBroadcastReceiver.java
+END

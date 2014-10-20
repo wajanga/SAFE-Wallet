@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/bills
+END
+PaidBills.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/bills/PaidBills.java
+END
+BillRowAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/bills/BillRowAdapter.java
+END
+Bill.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seclab/android/!svn/ver/605/trunk/Wallet/src/com/setecs/mobile/wallet/market/bills/Bill.java
+END
+UnPaidBills.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/bills/UnPaidBills.java
+END
+BillActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/bills/BillActivity.java
+END
+BillParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/seclab/android/!svn/ver/606/trunk/Wallet/src/com/setecs/mobile/wallet/market/bills/BillParser.java
+END
+BillHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/bills/BillHome.java
+END
+BillParserPaid.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/seclab/android/!svn/ver/606/trunk/Wallet/src/com/setecs/mobile/wallet/market/bills/BillParserPaid.java
+END

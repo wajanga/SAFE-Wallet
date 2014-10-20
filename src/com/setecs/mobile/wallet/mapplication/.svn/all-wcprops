@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mapplication
+END
+Card.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mapplication/Card.java
+END
+ServicesAdap.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mapplication/ServicesAdap.java
+END
+ListTransactionsIntermediate.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mapplication/ListTransactionsIntermediate.java
+END
+ListCards.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mapplication/ListCards.java
+END
+MApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mapplication/MApplication.java
+END
+RegisterCard.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mapplication/RegisterCard.java
+END
+CardListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mapplication/CardListAdapter.java
+END

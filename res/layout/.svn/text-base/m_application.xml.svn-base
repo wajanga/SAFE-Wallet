@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget59"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/button_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/widget99"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffcccccc"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/widget236"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/title"
+            android:gravity="center"
+            android:padding="10dip"
+            android:shadowColor="#ff003333"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:text="m-Cards"
+            android:textColor="#ff000066"
+            android:textSize="24sp"
+            android:textStyle="bold" >
+        </TextView>
+    </RelativeLayout>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/widget929"
+        android:layout_below="@+id/widget99" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/widget95"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/widget929"
+            android:layout_below="@+id/widget99"
+            android:background="#ffcccccc"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/Register_Card"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/first_button_bg"
+                android:drawableLeft="@drawable/register_card"
+                android:gravity="center|left"
+                android:paddingLeft="10dip"
+                android:text="	Register Card"
+                android:textColor="#ff3c0000"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </Button>
+
+            <Button
+                android:id="@+id/check_card_balance"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/last_button_bg"
+                android:drawableLeft="@drawable/check_card_balance"
+                android:gravity="fill"
+                android:onClick="checkCardBalance"
+                android:paddingLeft="10dip"
+                android:text="	Check Card Balance"
+                android:textColor="#ff3c0000"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </Button>
+
+            <Button
+                android:id="@+id/List_Cards"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:drawableLeft="@drawable/list_delete_cards"
+                android:gravity="fill"
+                android:paddingLeft="10dip"
+                android:text="	List / Delete Cards"
+                android:textColor="#ff3c0000"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </Button>
+
+            <Button
+                android:id="@+id/List_Transactions"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/last_button_bg"
+                android:drawableLeft="@drawable/list_cards"
+                android:gravity="fill"
+                android:paddingLeft="10dip"
+                android:text="	List Transactions"
+                android:textColor="#ff3c0000"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/widget929"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ff000000"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/widget236"
+            android:layout_width="fill_parent"
+            android:layout_height="70px"
+            android:layout_gravity="center_vertical|right"
+            android:background="@drawable/footer"
+            android:gravity="center"
+            android:text="EUR"
+            android:textColor="#ffffff00"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="gone" >
+        </TextView>
+    </LinearLayout>
+
+</RelativeLayout>

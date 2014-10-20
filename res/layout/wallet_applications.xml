@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/widget314"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:background="@drawable/background">
+	
+	<TextView android:id="@+id/widget236" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Wallet Applications"
+		android:textSize="24sp" android:textStyle="bold" android:textColor="#ff000066"
+		android:shadowColor="#ff003333" android:shadowRadius="1.5"
+		android:shadowDx="1" android:shadowDy="1"
+		android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+		android:gravity="center" android:background="@drawable/title"
+		android:padding="10dip">
+	</TextView>
+	<CheckBox android:text="m-Shopping" android:textSize="18sp"
+		android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/mShopp"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+	<CheckBox android:text="m-Club" android:textSize="18sp"
+		android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/mClub"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+	<CheckBox android:text="m-Health" android:textSize="18sp"
+		android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/mHealth"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+		
+	<RelativeLayout android:id="@+id/SingleLayout"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		xmlns:android="http://schemas.android.com/apk/res/android">
+
+		<Button android:id="@+id/btnSave" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Save"
+			android:textSize="20sp" android:textStyle="bold"
+			android:layout_centerInParent="true" android:layout_weight="1"></Button>
+
+	</RelativeLayout>
+</LinearLayout>

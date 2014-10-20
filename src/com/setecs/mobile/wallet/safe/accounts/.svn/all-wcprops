@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/accounts
+END
+SAFEBalanceActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/accounts/SAFEBalanceActivity.java
+END
+SAFEBalanceParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/seclab/android/!svn/ver/592/trunk/Wallet/src/com/setecs/mobile/wallet/safe/accounts/SAFEBalanceParser.java
+END
+TerminateAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/accounts/TerminateAccount.java
+END
+FetchAccountListThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/seclab/android/!svn/ver/32/trunk/Wallet/src/com/setecs/mobile/wallet/safe/accounts/FetchAccountListThread.java
+END
+ActivateAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/accounts/ActivateAccount.java
+END
+CreateNewSafeAccounts.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/accounts/CreateNewSafeAccounts.java
+END
+SafeAccounts.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/accounts/SafeAccounts.java
+END
+SuspendAccounts.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/accounts/SuspendAccounts.java
+END
+ListSafeAccounts.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/seclab/android/!svn/ver/32/trunk/Wallet/src/com/setecs/mobile/wallet/safe/accounts/ListSafeAccounts.java
+END

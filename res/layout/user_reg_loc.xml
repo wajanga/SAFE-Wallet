@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/widget314"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:background="@drawable/background">
+	<TextView android:id="@+id/widget236" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Location Registration"
+		android:textSize="24sp" android:textStyle="bold" android:textColor="#ff000066"
+		android:shadowColor="#ff003333" android:shadowRadius="1.5"
+		android:shadowDx="1" android:shadowDy="1"
+		android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+		android:gravity="center" android:background="@drawable/title"
+		android:padding="10dip"
+		>
+	</TextView>
+	<LinearLayout android:paddingRight="20px"
+		android:layout_width="fill_parent" android:paddingLeft="20px"
+		android:id="@+id/widget314" android:orientation="vertical"
+		android:background="@drawable/background" android:layout_height="fill_parent"
+		android:paddingTop="10px">
+		<TextView android:textSize="18sp" android:textStyle="bold"
+			android:id="@+id/widget222" android:layout_width="wrap_content"
+			android:text="User Name:" android:textColor="#ff000000"
+			android:layout_height="wrap_content" android:paddingTop="10px"></TextView>
+		<EditText android:id="@+id/fnametxt" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textSize="18sp">
+			<requestFocus></requestFocus>
+		</EditText>
+		<TextView android:textSize="18sp" android:textStyle="bold"
+			android:id="@+id/widget222" android:layout_width="wrap_content"
+			android:text="User's Mobile Number:" android:textColor="#ff000000"
+			android:layout_height="wrap_content" android:paddingTop="10px"></TextView>
+		<EditText android:id="@+id/user_mob_no" android:layout_width="fill_parent"
+			android:inputType="number" android:layout_height="wrap_content"
+			android:textSize="18sp"></EditText>
+		<TextView android:textSize="18sp" android:textStyle="bold"
+			android:id="@+id/widget222" android:layout_width="wrap_content"
+			android:text="Authorized Location(s):" android:textColor="#ff000000"
+			android:layout_height="wrap_content" android:paddingTop="10px"></TextView>
+		<CheckBox android:textColor="#ff000000" android:text="Current (59.40492, 17.94385)"
+			android:textStyle="bold" android:layout_width="wrap_content"
+			android:id="@+id/other_cat" android:textSize="18sp"
+			android:layout_height="wrap_content"></CheckBox>
+		<Button android:text="Another location" android:id="@+id/button1"
+			android:textSize="18sp" android:layout_width="wrap_content"
+			android:textStyle="bold" android:textColor="#ff000000"
+			android:layout_height="wrap_content"></Button>
+		<LinearLayout android:paddingRight="60px"
+			android:layout_width="fill_parent" android:paddingLeft="60px"
+			android:id="@+id/widget314" android:orientation="vertical"
+			android:layout_height="fill_parent" android:paddingTop="60px">
+			<Button android:text="Register" android:id="@+id/btn_usereg"
+				android:textSize="20sp" android:layout_width="fill_parent"
+				android:textStyle="bold" android:layout_height="wrap_content"></Button>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

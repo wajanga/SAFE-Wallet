@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget59"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/button_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/widget236"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title"
+        android:gravity="center"
+        android:padding="10dip"
+        android:shadowColor="#ff003333"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1.5"
+        android:text="m-Shopping"
+        android:textColor="#ff000066"
+        android:textSize="24sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/widget95"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffcccccc"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/m_Advertising"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/first_button_bg"
+                android:drawableLeft="@drawable/m_advertising"
+                android:gravity="center|left"
+                android:onClick="m_Advertising"
+                android:padding="10dip"
+                android:paddingLeft="10dip"
+                android:text="	m-Advertisements"
+                android:textColor="#ff3c0000"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </Button>
+
+            <Button
+                android:id="@+id/m_pay"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/first_button_bg"
+                android:drawableLeft="@drawable/mpromotions"
+                android:gravity="center|left"
+                android:onClick="onActionOneClick"
+                android:padding="10dip"
+                android:paddingLeft="10dip"
+                android:text="	m-Promotions"
+                android:textColor="#ff3c0000"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </Button>
+
+            <Button
+                android:id="@+id/m_transactions"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:drawableLeft="@drawable/mcoupons"
+                android:gravity="fill"
+                android:onClick="onActionTwoClick"
+                android:padding="10dip"
+                android:paddingLeft="10dip"
+                android:text="	m-Coupons"
+                android:textColor="#ff3c0000"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </Button>
+
+            <Button
+                android:id="@+id/m_accounts"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:drawableLeft="@drawable/mtelecom"
+                android:gravity="fill"
+                android:onClick="onActionThreeClick"
+                android:padding="10dip"
+                android:paddingLeft="10dip"
+                android:text="	m-Telecom"
+                android:textColor="#ff3c0000"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </Button>
+
+            <Button
+                android:id="@+id/m_banking"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:drawableLeft="@drawable/mtickets"
+                android:gravity="fill"
+                android:onClick="onActionFourClick"
+                android:padding="10dip"
+                android:paddingLeft="10dip"
+                android:text="	m-Tickets"
+                android:textColor="#ff3c0000"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </Button>
+
+            <Button
+                android:id="@+id/m_cards"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:drawableLeft="@drawable/mparking"
+                android:gravity="fill"
+                android:onClick="onActionFiveClick"
+                android:padding="10dip"
+                android:paddingLeft="10dip"
+                android:text="	m-Parking"
+                android:textColor="#ff3c0000"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </Button>
+
+            <Button
+                android:id="@+id/m_money"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/last_button_bg"
+                android:drawableLeft="@drawable/mgift_cards"
+                android:gravity="fill"
+                android:onClick="onActionSixClick"
+                android:padding="10dip"
+                android:paddingLeft="10dip"
+                android:text="	m-Gift Cards"
+                android:textColor="#ff3c0000"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </Button>
+
+            <Button
+                android:id="@+id/m_bills"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/last_button_bg"
+                android:drawableLeft="@drawable/m_bills"
+                android:gravity="fill"
+                android:onClick="onActionSevenClick"
+                android:padding="10dip"
+                android:paddingLeft="10dip"
+                android:text="	m-Bills"
+                android:textColor="#ff3c0000"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

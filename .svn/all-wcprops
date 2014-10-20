@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/seclab/android/!svn/ver/612/trunk/Wallet
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seclab/android/!svn/ver/612/trunk/Wallet/AndroidManifest.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/seclab/android/!svn/ver/32/trunk/Wallet/build.xml
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seclab/android/!svn/ver/708/trunk/Wallet/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/seclab/android/!svn/ver/32/trunk/Wallet/.project
+END
+lint.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/seclab/android/!svn/ver/32/trunk/Wallet/lint.xml
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seclab/android/!svn/ver/32/trunk/Wallet/proguard.cfg
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seclab/android/!svn/ver/782/trunk/Wallet/.classpath
+END

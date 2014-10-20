@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/imagedownloader
+END
+ImageLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/imagedownloader/ImageLoader.java
+END
+FileCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/seclab/android/!svn/ver/525/trunk/Wallet/src/com/setecs/mobile/wallet/imagedownloader/FileCache.java
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seclab/android/!svn/ver/525/trunk/Wallet/src/com/setecs/mobile/wallet/imagedownloader/Utils.java
+END
+MemoryCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/seclab/android/!svn/ver/525/trunk/Wallet/src/com/setecs/mobile/wallet/imagedownloader/MemoryCache.java
+END

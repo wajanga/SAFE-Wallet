@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+
+	<include layout="@layout/header" />
+
+	<RelativeLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:paddingLeft="20px" android:paddingRight="20px">
+
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:gravity="center" android:layout_alignParentBottom="true">
+			<Button android:layout_height="85px" android:id="@+id/button_ok"
+				android:text="OK" android:layout_width="wrap_content"
+				android:onClick="ok" android:layout_weight="1" android:textSize="18sp"
+				android:textStyle="bold" android:background="@drawable/button_background"
+				android:textColor="#ff3c0000">
+			</Button>
+			<Button android:layout_height="85px" android:id="@+id/button_delete"
+				android:text="Delete" android:layout_width="wrap_content"
+				android:onClick="delete" android:layout_weight="1" android:textSize="18sp"
+				android:textStyle="bold" android:background="@drawable/button_background"
+				android:textColor="#ff3c0000">
+			</Button>
+		</LinearLayout>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="Merchant"
+			android:id="@+id/token_merchant" android:layout_alignParentTop="true"
+			android:textAppearance="?android:attr/textAppearanceMedium">
+		</TextView>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="Text" android:id="@+id/token_desc"
+			android:layout_below="@+id/token_merchant" android:textAppearance="?android:attr/textAppearanceMedium">
+		</TextView>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="Start Date"
+			android:id="@+id/token_start" android:layout_below="@+id/token_desc"
+			android:textAppearance="?android:attr/textAppearanceMedium">
+		</TextView>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="Expriration Date"
+			android:id="@+id/token_end" android:layout_below="@+id/token_start"
+			android:textAppearance="?android:attr/textAppearanceMedium">
+		</TextView>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="Amount" android:id="@+id/token_amount"
+			android:layout_below="@+id/token_end" android:textAppearance="?android:attr/textAppearanceMedium">
+		</TextView>
+		<ImageView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/qr"
+			android:layout_below="@+id/token_amount"
+			android:layout_centerHorizontal="true">
+		</ImageView>
+	</RelativeLayout>
+
+</LinearLayout>

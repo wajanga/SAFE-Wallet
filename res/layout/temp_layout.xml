@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:paddingBottom="10dp"
+  android:paddingTop="10dp">
+    <ImageView android:layout_width="60dip" 
+    	android:src="@drawable/list_logo" 
+    	android:layout_height="60dip" 
+    	android:layout_alignParentLeft="true" 
+    	android:id="@+id/testView1" 
+    	android:layout_marginRight="10dp" />
+    <TextView android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:text="TextView"
+    	android:id="@+id/testView3"
+    	android:textAppearance="?android:attr/textAppearanceLarge"
+    	android:layout_toRightOf="@+id/testView1">
+    </TextView>
+    <TextView android:layout_width="wrap_content" 
+    	android:textAppearance="?android:attr/textAppearanceSmall" 
+    	android:layout_height="wrap_content" 
+    	android:text="Description" 
+    	android:layout_alignLeft="@+id/testView3"
+    	android:layout_below="@+id/testView3" 
+    	android:id="@+id/testView4"
+    	android:singleLine="false">
+    </TextView>
+    <TextView android:text="test" 
+    	android:layout_width="wrap_content" 
+    	android:id="@+id/textView2" 
+    	android:layout_height="wrap_content" 
+    	android:layout_below="@+id/testView4" 
+    	android:layout_alignLeft="@+id/testView4">
+    </TextView>
+    
+</RelativeLayout>

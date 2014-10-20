@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/utility
+END
+DrawableManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/seclab/android/!svn/ver/528/trunk/Wallet/src/com/setecs/mobile/wallet/market/utility/DrawableManager.java
+END
+QRCodeEncoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/utility/QRCodeEncoder.java
+END
+EasySSLSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/seclab/android/!svn/ver/32/trunk/Wallet/src/com/setecs/mobile/wallet/market/utility/EasySSLSocketFactory.java
+END
+EasyX509TrustManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/seclab/android/!svn/ver/32/trunk/Wallet/src/com/setecs/mobile/wallet/market/utility/EasyX509TrustManager.java
+END
+SafeReplyHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/seclab/android/!svn/ver/528/trunk/Wallet/src/com/setecs/mobile/wallet/market/utility/SafeReplyHandler.java
+END
+DBHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/seclab/android/!svn/ver/32/trunk/Wallet/src/com/setecs/mobile/wallet/market/utility/DBHelper.java
+END
+SafeReplyParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/seclab/android/!svn/ver/528/trunk/Wallet/src/com/setecs/mobile/wallet/market/utility/SafeReplyParser.java
+END
+WebImageView.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/seclab/android/!svn/ver/528/trunk/Wallet/src/com/setecs/mobile/wallet/market/utility/WebImageView.java
+END
+WalletActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/utility/WalletActivity.java
+END
+WalletListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/utility/WalletListActivity.java
+END
+SpinnerWithHint.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/utility/SpinnerWithHint.java
+END
+InputFilterMinMax.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/seclab/android/!svn/ver/32/trunk/Wallet/src/com/setecs/mobile/wallet/market/utility/InputFilterMinMax.java
+END
+DBAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/seclab/android/!svn/ver/32/trunk/Wallet/src/com/setecs/mobile/wallet/market/utility/DBAdapter.java
+END

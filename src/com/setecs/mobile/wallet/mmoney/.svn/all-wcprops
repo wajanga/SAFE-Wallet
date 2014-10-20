@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mmoney
+END
+LoadCash.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mmoney/LoadCash.java
+END
+ViewStoredMoney.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mmoney/ViewStoredMoney.java
+END
+mMoney.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mmoney/mMoney.java
+END
+UnloadCash.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/mmoney/UnloadCash.java
+END

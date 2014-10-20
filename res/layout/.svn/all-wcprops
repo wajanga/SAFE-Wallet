@@ -1,0 +1,665 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seclab/android/!svn/ver/605/trunk/Wallet/res/layout
+END
+custom_progress_wheel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/custom_progress_wheel.xml
+END
+safe_accounts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seclab/android/!svn/ver/595/trunk/Wallet/res/layout/safe_accounts.xml
+END
+giftcard_list_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seclab/android/!svn/ver/88/trunk/Wallet/res/layout/giftcard_list_row.xml
+END
+footer_location.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/footer_location.xml
+END
+giftcard_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seclab/android/!svn/ver/530/trunk/Wallet/res/layout/giftcard_row.xml
+END
+custom_list_view3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/custom_list_view3.xml
+END
+sys_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seclab/android/!svn/ver/592/trunk/Wallet/res/layout/sys_info.xml
+END
+prom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seclab/android/!svn/ver/86/trunk/Wallet/res/layout/prom.xml
+END
+activate_account.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/activate_account.xml
+END
+list_transactions_mbanking.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seclab/android/!svn/ver/561/trunk/Wallet/res/layout/list_transactions_mbanking.xml
+END
+ota_payment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/ota_payment.xml
+END
+view_storedmoney.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/view_storedmoney.xml
+END
+otc_payment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/otc_payment.xml
+END
+m_parking.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/m_parking.xml
+END
+cat_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/cat_list.xml
+END
+device_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seclab/android/!svn/ver/184/trunk/Wallet/res/layout/device_list.xml
+END
+pay_parking_ticket.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/pay_parking_ticket.xml
+END
+create_account.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/create_account.xml
+END
+transfer_money.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seclab/android/!svn/ver/591/trunk/Wallet/res/layout/transfer_money.xml
+END
+load_cash.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/load_cash.xml
+END
+m_health.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/m_health.xml
+END
+m_money.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/m_money.xml
+END
+list_transactions_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seclab/android/!svn/ver/561/trunk/Wallet/res/layout/list_transactions_row.xml
+END
+unload_cash.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/unload_cash.xml
+END
+ota_pay_wallet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seclab/android/!svn/ver/184/trunk/Wallet/res/layout/ota_pay_wallet.xml
+END
+user_reg_blank.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/user_reg_blank.xml
+END
+temp_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seclab/android/!svn/ver/86/trunk/Wallet/res/layout/temp_layout.xml
+END
+test_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/test_layout.xml
+END
+token.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/token.xml
+END
+saved_coupon_list_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/saved_coupon_list_row.xml
+END
+transfer_funds.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seclab/android/!svn/ver/556/trunk/Wallet/res/layout/transfer_funds.xml
+END
+prom_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seclab/android/!svn/ver/530/trunk/Wallet/res/layout/prom_row.xml
+END
+m_application.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/m_application.xml
+END
+list_cards.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/list_cards.xml
+END
+initial_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seclab/android/!svn/ver/99/trunk/Wallet/res/layout/initial_layout.xml
+END
+generic_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/generic_list.xml
+END
+market_item_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seclab/android/!svn/ver/531/trunk/Wallet/res/layout/market_item_list.xml
+END
+pay_options.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seclab/android/!svn/ver/184/trunk/Wallet/res/layout/pay_options.xml
+END
+card_list_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/card_list_row.xml
+END
+coupon_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seclab/android/!svn/ver/530/trunk/Wallet/res/layout/coupon_activity.xml
+END
+custom_title.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/custom_title.xml
+END
+server_message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/server_message.xml
+END
+ticket_list_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seclab/android/!svn/ver/87/trunk/Wallet/res/layout/ticket_list_row.xml
+END
+header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seclab/android/!svn/ver/547/trunk/Wallet/res/layout/header.xml
+END
+card.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/card.xml
+END
+prom_test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seclab/android/!svn/ver/528/trunk/Wallet/res/layout/prom_test.xml
+END
+extend_parking.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/extend_parking.xml
+END
+initial_layout_contents.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seclab/android/!svn/ver/99/trunk/Wallet/res/layout/initial_layout_contents.xml
+END
+coupons_layout2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/coupons_layout2.xml
+END
+safe_account_balance.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seclab/android/!svn/ver/592/trunk/Wallet/res/layout/safe_account_balance.xml
+END
+footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seclab/android/!svn/ver/547/trunk/Wallet/res/layout/footer.xml
+END
+list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seclab/android/!svn/ver/531/trunk/Wallet/res/layout/list.xml
+END
+m_ticket.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seclab/android/!svn/ver/530/trunk/Wallet/res/layout/m_ticket.xml
+END
+dashboard2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seclab/android/!svn/ver/605/trunk/Wallet/res/layout/dashboard2.xml
+END
+list_transactions_mcards.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/list_transactions_mcards.xml
+END
+user_reg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/user_reg.xml
+END
+search_parking.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/search_parking.xml
+END
+user_reg_loc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/user_reg_loc.xml
+END
+pay_parking.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/pay_parking.xml
+END
+bill_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seclab/android/!svn/ver/605/trunk/Wallet/res/layout/bill_row.xml
+END
+ad.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seclab/android/!svn/ver/86/trunk/Wallet/res/layout/ad.xml
+END
+prom_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seclab/android/!svn/ver/528/trunk/Wallet/res/layout/prom_view.xml
+END
+coupon.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/coupon.xml
+END
+mwallet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seclab/android/!svn/ver/595/trunk/Wallet/res/layout/mwallet.xml
+END
+tabs_bg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/tabs_bg.xml
+END
+ticket_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seclab/android/!svn/ver/530/trunk/Wallet/res/layout/ticket_row.xml
+END
+pay.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seclab/android/!svn/ver/184/trunk/Wallet/res/layout/pay.xml
+END
+list_bank_accounts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seclab/android/!svn/ver/547/trunk/Wallet/res/layout/list_bank_accounts.xml
+END
+wallet_applications.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/wallet_applications.xml
+END
+bank_account.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seclab/android/!svn/ver/547/trunk/Wallet/res/layout/bank_account.xml
+END
+suspend_account.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/suspend_account.xml
+END
+voucher_list_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/voucher_list_row.xml
+END
+token_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/token_view.xml
+END
+register_card.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seclab/android/!svn/ver/60/trunk/Wallet/res/layout/register_card.xml
+END
+child_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/child_layout.xml
+END
+pay_invoic.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seclab/android/!svn/ver/560/trunk/Wallet/res/layout/pay_invoic.xml
+END
+wallet_configuration.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seclab/android/!svn/ver/753/trunk/Wallet/res/layout/wallet_configuration.xml
+END
+otc_pay_wallet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seclab/android/!svn/ver/192/trunk/Wallet/res/layout/otc_pay_wallet.xml
+END
+coupon_list_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seclab/android/!svn/ver/87/trunk/Wallet/res/layout/coupon_list_row.xml
+END
+walletmain.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/walletmain.xml
+END
+title_text.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/title_text.xml
+END
+row_spinner.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/row_spinner.xml
+END
+deposit_cash.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/deposit_cash.xml
+END
+system_conf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seclab/android/!svn/ver/53/trunk/Wallet/res/layout/system_conf.xml
+END
+m_settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seclab/android/!svn/ver/592/trunk/Wallet/res/layout/m_settings.xml
+END
+card_list_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/card_list_layout.xml
+END
+search_merchant_category.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seclab/android/!svn/ver/85/trunk/Wallet/res/layout/search_merchant_category.xml
+END
+ad_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seclab/android/!svn/ver/528/trunk/Wallet/res/layout/ad_row.xml
+END
+giftcard.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seclab/android/!svn/ver/88/trunk/Wallet/res/layout/giftcard.xml
+END
+coupon_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seclab/android/!svn/ver/530/trunk/Wallet/res/layout/coupon_row.xml
+END
+header2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/header2.xml
+END
+bank_account_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seclab/android/!svn/ver/547/trunk/Wallet/res/layout/bank_account_row.xml
+END
+register_bank_account.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seclab/android/!svn/ver/551/trunk/Wallet/res/layout/register_bank_account.xml
+END
+bank_account_balance.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seclab/android/!svn/ver/552/trunk/Wallet/res/layout/bank_account_balance.xml
+END
+safe_transactions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seclab/android/!svn/ver/595/trunk/Wallet/res/layout/safe_transactions.xml
+END
+bill_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seclab/android/!svn/ver/605/trunk/Wallet/res/layout/bill_activity.xml
+END
+m_club.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seclab/android/!svn/ver/556/trunk/Wallet/res/layout/m_club.xml
+END
+withdraw_cash.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/withdraw_cash.xml
+END
+qr_pay_wallet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seclab/android/!svn/ver/194/trunk/Wallet/res/layout/qr_pay_wallet.xml
+END
+terminate_account.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/terminate_account.xml
+END
+unavailable.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/unavailable.xml
+END
+pin_keyboard.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seclab/android/!svn/ver/555/trunk/Wallet/res/layout/pin_keyboard.xml
+END
+prom3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/prom3.xml
+END
+device_name.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seclab/android/!svn/ver/184/trunk/Wallet/res/layout/device_name.xml
+END
+m_banking.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seclab/android/!svn/ver/595/trunk/Wallet/res/layout/m_banking.xml
+END
+list2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seclab/android/!svn/ver/538/trunk/Wallet/res/layout/list2.xml
+END
+list3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seclab/android/!svn/ver/561/trunk/Wallet/res/layout/list3.xml
+END
+m_pay.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seclab/android/!svn/ver/595/trunk/Wallet/res/layout/m_pay.xml
+END
+custom_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seclab/android/!svn/ver/32/trunk/Wallet/res/layout/custom_dialog.xml
+END
+list_transactions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seclab/android/!svn/ver/547/trunk/Wallet/res/layout/list_transactions.xml
+END

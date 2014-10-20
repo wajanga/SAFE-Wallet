@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/background">
+  <TextView  
+	android:id="@+id/widget236"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="m-Gift Cards"
+	android:textSize="26sp"
+	android:textStyle="bold"
+	android:textColor="#ff000066"
+	android:shadowColor="#ff003333"  
+    android:shadowRadius="1.5"  
+    android:shadowDx="1"  
+    android:shadowDy="1"
+   	android:gravity="center"
+   	android:background="@drawable/title" />
+  <ListView 
+  	android:layout_height="fill_parent" 
+  	android:layout_width="fill_parent"
+  	android:id="@+id/android:list">
+  </ListView>
+  <TextView android:id="@id/android:empty" 
+  	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent" 
+    android:text="" 
+    android:gravity="center"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="@color/black_text"/>
+    
+</LinearLayout>

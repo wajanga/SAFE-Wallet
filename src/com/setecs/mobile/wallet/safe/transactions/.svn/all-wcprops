@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/transactions
+END
+TransferMoneyThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/seclab/android/!svn/ver/32/trunk/Wallet/src/com/setecs/mobile/wallet/safe/transactions/TransferMoneyThread.java
+END
+SendWithdrawCashThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/seclab/android/!svn/ver/32/trunk/Wallet/src/com/setecs/mobile/wallet/safe/transactions/SendWithdrawCashThread.java
+END
+WithdrawCash.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/transactions/WithdrawCash.java
+END
+CheckAccontStatusThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/seclab/android/!svn/ver/32/trunk/Wallet/src/com/setecs/mobile/wallet/safe/transactions/CheckAccontStatusThread.java
+END
+TransferMoney.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/transactions/TransferMoney.java
+END
+TransferMoneyActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/transactions/TransferMoneyActivity.java
+END
+TransferMoneyParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/seclab/android/!svn/ver/591/trunk/Wallet/src/com/setecs/mobile/wallet/safe/transactions/TransferMoneyParser.java
+END
+ListTransactions.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/transactions/ListTransactions.java
+END
+SendDepositCashThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/seclab/android/!svn/ver/32/trunk/Wallet/src/com/setecs/mobile/wallet/safe/transactions/SendDepositCashThread.java
+END
+SafeTransactions.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/transactions/SafeTransactions.java
+END
+DepositCash.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/transactions/DepositCash.java
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/tickets
+END
+SavedTickets.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/tickets/SavedTickets.java
+END
+Ticket.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seclab/android/!svn/ver/530/trunk/Wallet/src/com/setecs/mobile/wallet/market/tickets/Ticket.java
+END
+TicketActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/tickets/TicketActivity.java
+END
+TicketParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/seclab/android/!svn/ver/531/trunk/Wallet/src/com/setecs/mobile/wallet/market/tickets/TicketParser.java
+END
+MarketTickets.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/tickets/MarketTickets.java
+END
+TicketsAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/tickets/TicketsAdapter.java
+END
+TicketsHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/tickets/TicketsHome.java
+END
+TicketListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/tickets/TicketListAdapter.java
+END
+TicketRowAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/tickets/TicketRowAdapter.java
+END

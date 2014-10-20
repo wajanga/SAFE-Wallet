@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/wallet
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seclab/android/!svn/ver/753/trunk/Wallet/src/com/setecs/mobile/wallet/safe/wallet/Constants.java
+END
+MHealth.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/wallet/MHealth.java
+END
+Login.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/wallet/Login.java
+END
+IntroScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/wallet/IntroScreen.java
+END
+MyApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/wallet/MyApplication.java
+END
+MClub.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/wallet/MClub.java
+END
+UIHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/seclab/android/!svn/ver/32/trunk/Wallet/src/com/setecs/mobile/wallet/safe/wallet/UIHelper.java
+END
+WalletMain.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/wallet/WalletMain.java
+END
+IntroScreenLogin.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/safe/wallet/IntroScreenLogin.java
+END

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget314"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/widget236"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title"
+        android:gravity="center"
+        android:padding="10dip"
+        android:shadowColor="#ff003333"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1.5"
+        android:text="System Configuration"
+        android:textColor="#ff000066"
+        android:textSize="24sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/widget314"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:paddingLeft="20px"
+        android:paddingRight="20px"
+        android:paddingTop="10px" >
+
+        <TextView
+            android:id="@+id/widget222"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10px"
+            android:text="SAFE System Mobile Number:"
+            android:textColor="#ff000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/SAFE_mob_no"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="SAFE System Mobile Number"
+            android:inputType="phone"
+            android:text=""
+            android:textSize="18sp" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/widget217"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10px"
+            android:text="SAFE System IP Number:"
+            android:textColor="#ff000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/SAFE_ip_no"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="SAFE System IP Number"
+            android:inputType="phone"
+            android:text="130.237.215.16"
+            android:textSize="18sp" >
+        </EditText>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/widget314"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingLeft="60px"
+            android:paddingRight="60px"
+            android:paddingTop="20px" >
+
+            <Button
+                android:id="@+id/confsave_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:textSize="20sp"
+                android:textStyle="bold" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget59"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/button_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/widget99"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffcccccc"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/widget236"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/title"
+            android:gravity="center"
+            android:padding="10dip"
+            android:shadowColor="#ff003333"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:text="m-Wallet"
+            android:textColor="#ff000066"
+            android:textSize="24sp"
+            android:textStyle="bold" >
+        </TextView>
+    </RelativeLayout>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/widget929"
+        android:layout_below="@+id/widget99" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/widget95"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/widget929"
+            android:layout_below="@+id/widget99"
+            android:background="#ffcccccc"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/m_pay"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/first_button_bg"
+                android:drawableLeft="@drawable/mpay"
+                android:gravity="center|left"
+                android:padding="10dip"
+                android:paddingLeft="10dip"
+                android:text="			m-Pay"
+                android:textColor="#ff3c0000"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </Button>
+
+            <Button
+                android:id="@+id/m_transactions"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:drawableLeft="@drawable/mtransactions"
+                android:gravity="fill"
+                android:padding="10dip"
+                android:paddingLeft="10dip"
+                android:text="			m-Transactions"
+                android:textColor="#ff3c0000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="gone" >
+            </Button>
+
+            <Button
+                android:id="@+id/m_accounts"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:drawableLeft="@drawable/maccounts"
+                android:gravity="fill"
+                android:padding="10dip"
+                android:paddingLeft="10dip"
+                android:text="			m-Accounts"
+                android:textColor="#ff3c0000"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </Button>
+
+            <Button
+                android:id="@+id/m_banking"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:drawableLeft="@drawable/mbanking"
+                android:gravity="fill"
+                android:padding="10dip"
+                android:paddingLeft="10dip"
+                android:text="			m-Banking"
+                android:textColor="#ff3c0000"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </Button>
+
+            <Button
+                android:id="@+id/m_cards"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:drawableLeft="@drawable/mcards"
+                android:gravity="fill"
+                android:padding="10dip"
+                android:paddingLeft="10dip"
+                android:text="			m-Cards"
+                android:textColor="#ff3c0000"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </Button>
+
+            <Button
+                android:id="@+id/m_money"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/last_button_bg"
+                android:drawableLeft="@drawable/mmoney"
+                android:gravity="fill"
+                android:padding="10dip"
+                android:paddingLeft="10dip"
+                android:text="			m-Cash"
+                android:textColor="#ff3c0000"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/widget929"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ff000000"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/widget236"
+            android:layout_width="fill_parent"
+            android:layout_height="70px"
+            android:layout_gravity="center_vertical|right"
+            android:background="@drawable/footer"
+            android:gravity="center"
+            android:text="EUR"
+            android:textColor="#ffffff00"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="gone" >
+        </TextView>
+    </LinearLayout>
+
+</RelativeLayout>

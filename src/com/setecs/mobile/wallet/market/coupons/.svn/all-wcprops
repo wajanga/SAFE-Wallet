@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/coupons
+END
+CouponsHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/coupons/CouponsHome.java
+END
+CouponListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/coupons/CouponListAdapter.java
+END
+CouponRowAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/coupons/CouponRowAdapter.java
+END
+Coupon.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seclab/android/!svn/ver/530/trunk/Wallet/src/com/setecs/mobile/wallet/market/coupons/Coupon.java
+END
+SavedCoupons.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/coupons/SavedCoupons.java
+END
+TokenConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/seclab/android/!svn/ver/32/trunk/Wallet/src/com/setecs/mobile/wallet/market/coupons/TokenConstants.java
+END
+CouponActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/coupons/CouponActivity.java
+END
+CouponParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/seclab/android/!svn/ver/531/trunk/Wallet/src/com/setecs/mobile/wallet/market/coupons/CouponParser.java
+END
+MarketCoupons.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/seclab/android/!svn/ver/612/trunk/Wallet/src/com/setecs/mobile/wallet/market/coupons/MarketCoupons.java
+END
